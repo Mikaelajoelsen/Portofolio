@@ -38,8 +38,8 @@ export default function Example() {
                 <div className="flex flex-shrink-0 items-center text-white font-extrabold">
                   <h1>MikaelaJoelsen.</h1>
                 </div>
-                <div className="hidden sm:ml-6 sm:block">
-                  <div className="flex space-x-4">
+                <div className="hidden sm:ml-6 sm:block ">
+                  <div className="flex space-x-4 ">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
@@ -61,8 +61,8 @@ export default function Example() {
             </div>
           </div>
 
-          <DisclosurePanel className="sm:hidden">
-            <div className="space-y-1 px-2 pb-3 pt-2">
+          <DisclosurePanel className="sm:hidden ">
+            <div className=" space-y-1 px-2 pb-3 pt-2">
               {navigation.map((item) => (
                 <DisclosureButton
                   key={item.name}

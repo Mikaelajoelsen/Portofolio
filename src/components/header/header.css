@@ -12,7 +12,7 @@ svg text {
   flex-wrap: wrap;
   font-family: Lora;
   letter-spacing: 10px;
-  stroke: #ff0095b5;
+  stroke: #f2fffcb5;
   font-size: 55px;
   font-weight: 700;
   stroke-width: 3;
@@ -30,7 +30,7 @@ svg text {
   100% {
     stroke-dasharray: 50% 0;
     stroke-dashoffset: -20%;
-    fill: hsl(317, 100%, 65%);
+    fill: hsl(279, 100%, 97%);
   }
 }
 
