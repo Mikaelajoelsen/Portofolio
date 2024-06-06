@@ -1,23 +1,19 @@
 import Profilecard from "../components/profilecard";
-import Header from "../components/header";
-import Skills from "../components/Skills";
 import Cards from "../components/cards";
+import Infocard from "../components/infocard";
+import Skills from "../components/Skills";
+
 export default function Homepage() {
   return (
     <>
-      <Header />
-      <div>
+      <div className="mb-36">
         <Profilecard />
       </div>
       <div>
         <Cards />
       </div>
-      <div>
-        <h1 className="flex justify-center text-white font-bold m-20">
-          VIEW MY WORK
-        </h1>
-      </div>
-      <div>
+      <Infocard />
+      <div className="m-10">
         <Skills />
       </div>
     </>

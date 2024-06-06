@@ -4,6 +4,7 @@ import {
   DisclosurePanel,
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
 
 const navigation = [
   { name: "HOME", href: "/", current: true },
@@ -38,30 +39,39 @@ export default function Example() {
                 <div className="flex flex-shrink-0 items-center text-white font-extrabold">
                   <h1>MikaelaJoelsen.</h1>
                 </div>
-                <div className="hidden sm:ml-6 sm:block ">
-                  <div className="flex space-x-4 ">
-                    {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current
-                            ? "hover:bg-gray-50 text-white hover:text-black"
-                            : "text-white hover:bg-gray-50 hover:text-black",
-                          "rounded-md px-3 py-2 text-sm font-bold"
-                        )}
-                        aria-current={item.current ? "page" : undefined}
-                      >
-                        {item.name}
-                      </a>
-                    ))}
-                  </div>
+                <div className="hidden sm:ml-6 sm:block space-x-4 items-center">
+                  {navigation.map((item) => (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      className={classNames(
+                        item.current
+                          ? "hover:border-solid-white text-white hover:text-xl"
+                          : "text-white hover:text-xl hover:white",
+                        "rounded-md px-3 py-2 text-sm font-thin"
+                      )}
+                      aria-current={item.current ? "page" : undefined}
+                    >
+                      {item.name}
+                    </a>
+                  ))}
                 </div>
+              </div>
+              <div className="hidden sm:flex sm:ml-6 items-center space-x-6">
+                <FaGithub className="text-white text-2xl hover:text-3xl hover:white" />
+                <FaLinkedin className="text-white text-2xl hover:text-3xl hover:white" />
+                <FaInstagram className="text-white text-2xl hover:text-3xl hover:white" />
+                <FaEnvelope className="text-white text-2xl hover:text-3xl hover:white" />
               </div>
             </div>
           </div>
 
-          <DisclosurePanel className="sm:hidden ">
+          <DisclosurePanel className="sm:hidden flex flex-col items-center space-y-8 pt-4 pb-2">
+            <FaGithub className="text-white  hover:text-2xl hover:white" />
+            <FaLinkedin className="text-white  hover:text-2xl hover:white" />
+            <FaInstagram className="text-white  hover:text-2xl hover:white" />
+            <FaEnvelope className="text-white  hover:text-2xl hover:white" />
+
             <div className=" space-y-1 px-2 pb-3 pt-2">
               {navigation.map((item) => (
                 <DisclosureButton
@@ -70,8 +80,8 @@ export default function Example() {
                   href={item.href}
                   className={classNames(
                     item.current
-                      ? "bg-gray-100 text-black"
-                      : "text-white hover:bg-gray-100 hover:text-black",
+                      ? " text-white hover:text-xl"
+                      : "text-white  hover:text-xl",
                     "block rounded-md px-3 py-2 text-base font-bold"
                   )}
                   aria-current={item.current ? "page" : undefined}
