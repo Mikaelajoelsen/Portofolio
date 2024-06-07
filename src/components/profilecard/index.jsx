@@ -1,5 +1,4 @@
 import { useEffect, useState, useMemo } from "react";
-
 const Card = () => {
   const [text, setText] = useState("");
   const typingSpeed = 100;

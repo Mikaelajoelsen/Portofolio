@@ -9,7 +9,7 @@ import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
 const navigation = [
   { name: "HOME", href: "/", current: true },
   { name: "ABOUT ME", href: "/about", current: false },
-  { name: "MY PROJECTS", href: "#", current: false },
+  { name: "MY PROJECTS", href: "/mywork", current: false },
 ];
 
 function classNames(...classes) {

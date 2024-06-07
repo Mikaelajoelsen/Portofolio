@@ -1,7 +1,7 @@
 function AboutMeCard() {
   return (
     <div className="flex justify-center m-10">
-      <div className="max-w-md mx-auto  shadow-md overflow-hidden md:max-w-2xl">
+      <div className="max-w-md mx-auto shadow-md overflow-hidden md:max-w-2xl">
         <div className="md:flex">
           <div className="md:flex-shrink-0">
             <img
