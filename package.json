@@ -17,7 +17,8 @@
     "react-dom": "^18.2.0",
     "react-icons": "^5.2.1",
     "react-type-animation": "^3.2.0",
-    "sass": "^1.77.4"
+    "sass": "^1.77.4",
+    "tw-elements-react": "^1.0.0-alpha-end"
   },
   "devDependencies": {
     "@tanstack/router-devtools": "^1.34.5",

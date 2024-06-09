@@ -17,7 +17,7 @@ import { SiTypescript } from "react-icons/si";
 export default function Skills() {
   return (
     <>
-      <h1 className="flex justify-center text-white text-3xl mb-3 font-thin">
+      <h1 className="flex justify-center text-white text-3xl mb-3 font-extrabold">
         Tools and skills
       </h1>
       <div className="flex justify-center">

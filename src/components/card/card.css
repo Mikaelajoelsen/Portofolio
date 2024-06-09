@@ -44,7 +44,7 @@
 
 .box:before,
 .box:after {
-  background: linear-gradient(315deg, #abab6d, #ff0058);
+  background: linear-gradient(315deg, #711a02, #1e001d);
 }
 
 .box span {
@@ -127,4 +127,5 @@
   font-size: 20px;
   color: #ffd7eb;
   margin-bottom: 10px;
+  font-weight: 1000;
 }

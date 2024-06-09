@@ -51,7 +51,7 @@ const Card = () => {
         className="flex flex-col items-center h-96 border-none md:flex-row md:max-w-4xl "
       >
         <div className="flex flex-col justify-between p-4 leading-normal w-full ">
-          <h1 className="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">
+          <h1 className="mb-2 text-3xl md:text-5xl font-extrabold tracking-tight text-white dark:text-white">
             {text}
             <span className="text-pink-500 animate-blink">|</span>
           </h1>

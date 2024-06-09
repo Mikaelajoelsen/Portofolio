@@ -3,18 +3,18 @@ function AboutMeCard() {
     <div className="flex justify-center m-10">
       <div className="max-w-md mx-auto shadow-md overflow-hidden md:max-w-2xl">
         <div className="md:flex">
-          <div className="md:flex-shrink-0">
+          <div className="md:flex-shrink-0 drop-shadow-lg ">
             <img
-              className="h-48 w-full object-cover md:h-full md:w-64 rounded-xl"
+              className="h-36 w-full object-cover md:h-96 md:w-64 rounded-xl drop-shadow-2xl shadow-xl mt-12"
               src="profilbilde.jpg"
               alt="Mikaela Joelsen"
             />
           </div>
           <div className="p-8">
-            <div className="uppercase tracking-wide text-sm text-gray-200 font-thin">
+            <div className="uppercase tracking-wide text-xl text-gray-200 font-thin">
               About Me
             </div>
-            <p className="mt-2 text-gray-300">
+            <p className="mt-2 text-gray-300 font-thin">
               I have 2 years of experince in HTML, CSS and Javascript. I use
               these tools to bring my webpages to life. However, my interests
               extend beyond coding. I am equally passionate about design and
@@ -22,7 +22,7 @@ function AboutMeCard() {
               Figma. By combining these skills, I am able to create websites
               that stand out and deliver fantastic user experiences.
             </p>
-            <p className="mt-2 text-gray-300">
+            <p className="mt-2 text-gray-300 font-thin">
               The expertise I`ve developed in JavaScript, CSS, and HTML allows
               me to build functional and visually appealing sites, while my
               proficiency in design tools like Photoshop, Figma, and Adobe XD
