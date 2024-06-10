@@ -4,7 +4,6 @@ import {
   DisclosurePanel,
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope } from "react-icons/fa";
 
 const navigation = [
   { name: "HOME", href: "/", current: true },
@@ -57,21 +56,10 @@ export default function Example() {
                   ))}
                 </div>
               </div>
-              <div className="hidden sm:flex sm:ml-6 items-center space-x-6">
-                <FaGithub className="text-white text-2xl hover:text-3xl hover:white" />
-                <FaLinkedin className="text-white text-2xl hover:text-3xl hover:white" />
-                <FaInstagram className="text-white text-2xl hover:text-3xl hover:white" />
-                <FaEnvelope className="text-white text-2xl hover:text-3xl hover:white" />
-              </div>
             </div>
           </div>
 
           <DisclosurePanel className="sm:hidden flex flex-col items-center space-y-8 pt-4 pb-2">
-            <FaGithub className="text-white  hover:text-2xl hover:white" />
-            <FaLinkedin className="text-white  hover:text-2xl hover:white" />
-            <FaInstagram className="text-white  hover:text-2xl hover:white" />
-            <FaEnvelope className="text-white  hover:text-2xl hover:white" />
-
             <div className=" space-y-1 px-2 pb-3 pt-2">
               {navigation.map((item) => (
                 <DisclosureButton

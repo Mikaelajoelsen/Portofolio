@@ -4,7 +4,6 @@ import {
   createRootRoute,
 } from "@tanstack/react-router";
 import Homepage from "./Pages/Home";
-import Contactpage from "./Pages/Contact";
 import Aboutpage from "./Pages/About";
 import Myworkpage from "./Pages/MyWork";
 import Root from "./App";
@@ -19,12 +18,6 @@ const indexRoute = createRoute({
   component: Homepage,
 });
 
-const contactRoute = createRoute({
-  getParentRoute: () => rootRoute,
-  path: "/contact",
-  component: Contactpage,
-});
-
 const aboutRoute = createRoute({
   getParentRoute: () => rootRoute,
   path: "/about",
@@ -37,12 +30,7 @@ const MyworkRoute = createRoute({
   component: Myworkpage,
 });
 
-const routeTree = rootRoute.addChildren([
-  indexRoute,
-  contactRoute,
-  aboutRoute,
-  MyworkRoute,
-]);
+const routeTree = rootRoute.addChildren([indexRoute, aboutRoute, MyworkRoute]);
 
 export const router = createRouter({ routeTree });
 

@@ -8,6 +8,9 @@ import { SiVite } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
 import { useEffect } from "react";
 import Arrow from "../components/arrow";
+import Text from "../components/textblue";
+import Text2 from "../components/text2";
+import Text3 from "../components/text3";
 
 export default function Myworkpage() {
   useEffect(() => {
@@ -40,15 +43,15 @@ export default function Myworkpage() {
 
   return (
     <>
-      <h1 className="flex justify-center text-white font-thin mt-5 text-5xl scroll-animation">
+      <h1 className="flex justify-center text-white font-thin mt-16 text-5xl scroll-animation">
         MY WORK
       </h1>
       <div className="mt-16 scroll-animation">
         <Arrow />
       </div>
-      <h1 className="flex justify-center text-white font-thin mt-5 text-4xl scroll-animation">
-        Holidaze
-      </h1>
+      <div className="scroll-animation">
+        <Text />
+      </div>
       <div className="scroll-animation">
         <Holidaze />
       </div>
@@ -122,9 +125,9 @@ export default function Myworkpage() {
       <div className="mt-24 scroll-animation">
         <Arrow />
       </div>
-      <h1 className="flex justify-center text-white font-thin mt-5 text-4xl scroll-animation">
-        Auction Site
-      </h1>
+      <div className="scroll-animation">
+        <Text2 />
+      </div>
 
       <div className="scroll-animation">
         <Auction />
@@ -209,9 +212,9 @@ export default function Myworkpage() {
       <div className="mt-24 scroll-animation">
         <Arrow />
       </div>
-      <h1 className="flex justify-center text-white font-thin mt-5 text-4xl scroll-animation">
-        Ecommerce
-      </h1>
+      <div className="scroll-animation">
+        <Text3 />
+      </div>
       <div className="scroll-animation">
         <Ecommerce />
       </div>

@@ -6,24 +6,32 @@ import { MdEmail } from "react-icons/md";
 function DeveloperProfile() {
   return (
     <div className="container mx-auto px-4 py-8">
-      <header className="text-center mb-8">
+      <div className=" text-center mb-8">
         <img
           src="profilbilde.jpg"
           alt="Profile"
-          className="rounded-full w-48 h-48 border-4 mx-auto mb-4 shadow-lg"
+          className="w-72 h-72 mx-auto mb-4 rounded-full drop-shadow-md"
         />
-        <h1 className="text-4xl font-thin text-white mb-2">Mikaela Joelsen</h1>
-        <p className="text-lg text-white">Front End Developer</p>
-      </header>
+        <h1 className="text-4xl font-extrabold text-white mb-2">
+          Mikaela Joelsen.
+        </h1>
+      </div>
       <div className="flex flex-row text-white justify-center gap-7 m-10 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
-        <MdEmail />
+        <a href="https://www.linkedin.com/in/mikaela-joelsen-181766278/">
+          <FaLinkedin />
+        </a>
+        <a href="https://github.com/Mikaelajoelsen">
+          <FaGithub />
+        </a>
+        <a href="mailto:agnesmik@hotmail.com">
+          <MdEmail />
+        </a>
       </div>
       <div className="flex justify-center">
-        <p className="mb-3  text-white dark:text-white text-sm font-thin w-1/2">
-          I have 2 years of experince in HTML, CSS and Javascript. I use these
-          tools to bring my webpages to life. However, my interests extend
+        <p className="mb-3  text-white dark:text-white text-xl font-thin w-3/4">
+          Hi! My name is Mikaela Joelsen, I am a Front-End developer from
+          Norway. I have 2 years of experince in HTML, CSS and Javascript. I use
+          these tools to bring my webpages to life. However, my interests extend
           beyond coding. I am equally passionate about design and prototyping,
           having honed my skills in tools like Photoshop and Figma. By combining
           these skills, I am able to create websites that stand out and deliver
