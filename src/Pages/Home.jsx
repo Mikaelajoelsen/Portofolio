@@ -26,7 +26,9 @@ export default function Homepage() {
       <div className="mb-10">
         <Skills />
       </div>
-      <Social />
+      <div className="mb-16">
+        <Social />
+      </div>
     </>
   );
 }

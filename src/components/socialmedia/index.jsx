@@ -10,7 +10,7 @@ const SocialMediaProfiles = () => {
       <p className="text-gray-400 text-center">
         If you are interested in working with me, send me a message!
       </p>
-      <div className="flex flex-col gap-3 w-96 justify-center mt-5">
+      <div className="flex flex-col gap-5 w-96 justify-center mt-5">
         <div className="flex justify-center gap-2">
           <MdOutlineMail className="text-white mt-1" />
           <a href="mailto:agnesmik@hotmail.com" className="text-white">
@@ -27,7 +27,7 @@ const SocialMediaProfiles = () => {
           </a>
           Check out my Github profile
         </div>
-        <div className="flex justify-center text-white gap-1">
+        <div className="flex justify-center text-white gap-2">
           <a
             href="https://www.linkedin.com/in/mikaela-joelsen-181766278/"
             target="_blank"
@@ -38,7 +38,7 @@ const SocialMediaProfiles = () => {
           Check out my Linkedin Profile
         </div>
       </div>
-      <div className="flex justify-center border border-2-solid-white mt-6 rounded-md w-36 h-7">
+      <div className="flex justify-center border border-2-solid-white mt-16 rounded-md w-36 h-7 mb-48">
         <a
           href="/public/Agnes Mikaela  Joelsen CV FrontEnd Utvikler.pdf"
           download
