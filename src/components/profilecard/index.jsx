@@ -7,7 +7,7 @@ const Card = () => {
     () => [
       "Hi there! ",
       "I'm Mikaela Joelsen.",
-      "I am 25 years old.",
+      "I am 26 years old.",
       "I am a front-end developer.",
       "From Norway.",
     ],
@@ -48,10 +48,10 @@ const Card = () => {
     <div className="flex justify-center">
       <a
         href="#"
-        className="flex flex-col items-center h-96 border-none md:flex-row md:max-w-4xl "
+        className="flex flex-col items-center border-none h-96 md:flex-row md:max-w-4xl "
       >
-        <div className="flex flex-col justify-between p-4 leading-normal w-full ">
-          <h1 className="mb-2 text-3xl md:text-5xl font-extrabold tracking-tight text-white dark:text-white">
+        <div className="flex flex-col justify-between w-full p-4 leading-normal ">
+          <h1 className="mb-2 text-3xl font-extrabold tracking-tight text-white md:text-5xl dark:text-white">
             {text}
             <span className="text-pink-500 animate-blink">|</span>
           </h1>
