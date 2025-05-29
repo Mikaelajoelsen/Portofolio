@@ -42,7 +42,6 @@ export default function Myworkpage() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
   return (
     <>
       <h1 className="flex justify-center mt-16 text-5xl font-thin text-white scroll-animation">
@@ -58,15 +57,16 @@ export default function Myworkpage() {
       <div className="flex justify-center scroll-animation">
         <div className="flex flex-col items-center justify-center w-1/2 mt-4 scroll-animation">
           <p className="font-thin text-white text-start scroll-animation">
-            I made this website/application for a client that is an artist. He
-            wanted a very simple and minimalistic look. This project was both
-            Front end and backend. I got some help and guidence on the backend.
-            We created an external api, that runs on its own server that handles
-            admin only authentication all the operations the artist has present
-            on the website. The artist is the only user, usin jwt tokens and
-            google oauth2 login. When user logs in, he can upload images that
-            gets uploaded to cloudinary, the url from cloudinary gets stored in
-            a database amoung all other informations that he adds.
+            I made this website/application for a client that is an
+            artist/painter. He wanted a very simple and minimalistic look. This
+            project was both Front end and backend. I got some help and guidence
+            on the backend. We created an external api, that runs on its own
+            server that handles admin only authentication all the operations the
+            artist has present on the website. The artist is the only user, usin
+            jwt tokens and google oauth2 login. When user logs in, he can upload
+            images that gets uploaded to cloudinary, the url from cloudinary
+            gets stored in a database amoung all other informations that he
+            adds.
           </p>
 
           <h1 className="mt-10 mb-3 font-extrabold text-white scroll-animation">
