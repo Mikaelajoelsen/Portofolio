@@ -30,7 +30,7 @@ function ImageCarousel() {
               <button
                 key={index}
                 onClick={() => goToImage(index)}
-                className={`text-white text-lg  bg-black bg-opacity-50 px-2 py-1 rounded-lg focus:outline-none ${
+                className={`text-white text-lg bg-black bg-opacity-50 px-2 py-1 rounded-sm focus:outline-none ${
                   index === currentImage ? "bg-opacity-75" : ""
                 } rounded-sm`}
               >

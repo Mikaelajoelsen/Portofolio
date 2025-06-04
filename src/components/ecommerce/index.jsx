@@ -13,7 +13,7 @@ function ImageCarousel() {
     <>
       <div className="flex justify-center">
         <div className="relative w-2/3 md:w-1/2">
-          <div className="relative h-64 md:h-96 overflow-hidden">
+          <div className="relative h-64 overflow-hidden md:h-96">
             {images.map((image, index) => (
               <img
                 key={index}
@@ -25,7 +25,7 @@ function ImageCarousel() {
               />
             ))}
           </div>
-          <div className="absolute bottom-2 left-0 w-full flex justify-center space-x-2">
+          <div className="absolute left-0 flex justify-center w-full space-x-2 bottom-2">
             {images.map((_, index) => (
               <button
                 key={index}

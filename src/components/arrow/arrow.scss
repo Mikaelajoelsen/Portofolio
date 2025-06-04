@@ -1,6 +1,6 @@
 $circle-w: 100px;
 $circle-bg: hsl(0, 0%, 100%);
-$arrow-bg: #1f022d;
+$arrow-bg: #3a0722;
 $body-bg: #9ddcdc;
 $bezier: cubic-bezier(0.77, 0, 0.175, 1);
 $bezier-bounce: cubic-bezier(0.87, -0.41, 0.19, 1.44);
@@ -8,7 +8,7 @@ $anim-timing: 3s;
 
 html,
 body {
-  height: 100%;
+  height: 10%;
   width: 100%;
   text-align: center;
 }
@@ -27,7 +27,7 @@ body {
   filter: url("#goo");
   .circle {
     background: $circle-bg;
-    border-radius: 50%;
+    border-radius: 100%;
     display: inline-block;
     height: $circle-w;
     width: $circle-w;
